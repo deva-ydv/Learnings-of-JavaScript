@@ -44,13 +44,13 @@ const user2 = {
 
 /*
 user === user2 -> false
-Reason: value is same but memory-address/reference location is different that's we get false
+Reason: value is same but memory-address/reference location is different that's why we get false
 */
 
 const userName1 = ''
 const userName2 = ''
 
-// In this case both address is same userName1 === userName2 because they are strings
+// In this case this one primitive data  userName1 === userName2 because they are strings
 
 
 const user3 = {
@@ -63,7 +63,7 @@ const user3 = {
 console.log(user3) // we can access like this the whole object
 console.log(user3.firstName) // this one is known as dot notation
 console.log(user3["firstName"])  // like this also
-console.log(user3["fist"+"Name"]) // like this also
+console.log(user3["first"+"Name"]) // like this also
 // and also we can access VARIABLE
 const myName = "deva"
 console.log(user3[myName])
