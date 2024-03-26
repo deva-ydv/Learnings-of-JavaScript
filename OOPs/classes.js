@@ -49,5 +49,8 @@ class CreateUser {
   // getBirthYear() and getFullName methods of prototypes
 }
 
-const user2 = new createUser("abhi", "ydv", 11);
-const user1 = new createUser("deva", "ydv", 22);
+const user2 = new CreateUser("abhi", "ydv", 11);
+const user1 = new CreateUser("deva", "ydv", 22);
+
+
+
